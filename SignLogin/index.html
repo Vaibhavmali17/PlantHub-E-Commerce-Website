@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Our Custom CSS File -->
+    <link rel="stylesheet" href="/SignLogin/index.css">
+    <title>Create Account | Plants Hub</title>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top py-3">
+        <div class="container">
+            <a class="navbar-brand" href="/SignLogin/index.html">
+                <i class="fas fa-seedling me-2"></i>Plants Hub
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-bold">
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="/SignLogin/adminlogin.html" style="margin-left: 950px;">
+                            <i class="fas  me-1"></i>Admin
+                            <!-- fa-user-shield -->
+                        </a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center gap-3">
+                    
+                    <a href="/SignLogin/login.html" class="btn btn-premium"> login </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Signup Form Section -->
+    <div class="container py-5 flex-grow-1 d-flex">
+        <div class="auth-card">
+            <div class="text-center mb-5">
+                <div class="bg-light bg-opacity-10 d-inline-block p-1 rounded-circle mb-4 border overflow-hidden">
+                    <img src="/flowers/moneyplants.jpg" alt="Join Hub" width="80" height="80">
+                </div>
+                <h2 class="fw-bold">Join the Hub</h2>
+                <p class="text-muted">Create an account to start your botanical collection</p>
+            </div>
+            
+            <form id="signupForm" class="row g-3">
+                <div class="col-12">
+                    <label class="form-label fw-bold small text-uppercase text-muted">Full Name</label>
+                    <input type="text" id="text" class="form-control" placeholder="John Doe" required>
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label fw-bold small text-uppercase text-muted">Email Address</label>
+                    <input type="email" id="email" class="form-control" placeholder="john@example.com" required>
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label fw-bold small text-uppercase text-muted">Secure Password</label>
+                    <input type="password" id="password" class="form-control" placeholder="••••••••" required>
+                </div>
+
+                <div class="col-12">
+                    <label class="form-label fw-bold small text-uppercase text-muted">Shipping Address</label>
+                    <input type="text" id="address" class="form-control" placeholder="1234 Emerald St" required>
+                </div>
+ 
+                <div class="col-md-6">
+                    <label class="form-label fw-bold small text-uppercase text-muted">City</label>
+                    <input type="text" id="city" class="form-control" placeholder="City" required>
+                </div>
+
+                <div class="col-md-4">
+                    <label class="form-label fw-bold small text-uppercase text-muted">State</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>Maharashtra</option>
+                        <option>Karnataka</option>
+                        <option>Kerala</option>
+                        <option>Gujrat</option>
+                        <option>Madhya Pradesh</option>
+                    </select>
+                </div>
+
+                <div class="col-md-2">
+                    <label class="form-label fw-bold small text-uppercase text-muted">Zip</label>
+                    <input type="text" id="zip" class="form-control" placeholder="123456" required>
+                </div>
+
+                <div class="col-12 mt-4">
+                    <button type="submit" class="btn btn-premium btn-lg">Create Account</button>
+                    <p class="text-center mt-4 mb-0 text-muted small">
+                        Already have an account? <a href="/SignLogin/login.html" class="text-success fw-bold text-decoration-none">Login here</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <h3 class="mb-4">Plants Hub</h3>
+            <p class="mb-4">Cultivating green sanctuaries since 2026.</p>
+            <div class="d-flex justify-content-center gap-4 mb-4 fs-5">
+                <a href="#" class="text-success"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-success"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-success"><i class="fab fa-twitter"></i></a>
+            </div>
+            <hr class="mb-4">
+            <p class="small mb-0 opacity-75">© 2026 Plants Hub | All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Our Custom JavaScript File -->
+    <script src="/SignLogin/index.js"></script>
+</body>
+
+</html>
