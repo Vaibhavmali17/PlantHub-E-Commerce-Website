@@ -1,0 +1,88 @@
+/* CSS for the Home Page */
+
+/* Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #1e3129; /* Dark green text */
+  background-color: #f9f7f2; /* Cream background */
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand {
+  color: #198754 !important; /* Bootstrap success green */
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: #e9ecef; /* Light grey backup */
+  background-image:
+    linear-gradient(rgba(249, 247, 242, 0.8), rgba(249, 247, 242, 0.8)),
+    url("../flowers/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  margin-bottom: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.hero-content {
+  color: #1e3129;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Plant Card Styling */
+.plant-card {
+  border: 1px solid #eee;
+  border-radius: 15px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.plant-card img {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+/* Premium Button Styling */
+.btn-premium {
+  background-color: #2d4a3e; /* Soft green */
+  color: #f9f7f2; /* Cream text */
+  border-radius: 50px;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-premium:hover {
+  background-color: #1e3129; /* Darker green on hover */
+  color: white;
+}
+
+/* Footer Styling */
+footer {
+  padding: 50px 0;
+  background-color: white;
+  border-top: 1px solid #ddd;
+  color: #1e3129;
+}
